@@ -1,0 +1,63 @@
+{
+  "name": "@craftsilicon/rn-design-system",
+  "version": "1.0.0",
+  "description": "Reusable React Native design system for mobile apps",
+  "keywords": [
+    "react-native",
+    "craft-design-system",
+    "craft-silicon-components",
+    "craft-silicon-ui",
+    "typescript"
+  ],
+  "author": "craftsilicon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somesh2406/craft-design-system"
+  },
+  "homepage": "https://github.com/somesh2406/craft-design-system#readme",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-native": ">=0.76.9",
+    "styled-components": "^6.1.8"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-native": ">=0.76.9"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "typescript": "^5.2.2",
+    "eslint": ">=8.52.0",
+    "@react-native/eslint-config": ">=0.76.9",
+    "@typescript-eslint/parser": "^6.10.0",
+    "babel-preset-react-native": "^5.0.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ]
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8.0.0"
+  },
+  "config": {
+    "outputDir": "dist"
+  }
+}

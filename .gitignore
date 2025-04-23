@@ -1,0 +1,15 @@
+node_modules/
+
+# Output folders
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+
+# macOS / Linux system files
+.DS_Store
+
+# Env/config
+.env
