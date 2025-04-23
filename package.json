@@ -16,6 +16,9 @@
     "url": "https://github.com/somesh2406/craft-design-system"
   },
   "homepage": "https://github.com/somesh2406/craft-design-system#readme",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
