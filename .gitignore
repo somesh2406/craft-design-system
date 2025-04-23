@@ -1,8 +1,6 @@
 node_modules/
 
-# Output folders
-dist/
-build/
+
 
 # Temporary files
 *.log
